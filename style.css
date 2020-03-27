@@ -1,0 +1,22 @@
+    #container {
+    display: grid;
+    width:640px;
+    height: 326px;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    margin:0 auto;
+  }
+  
+  .grid-item {
+    border: 1px groove #ddd;
+  }
+  #button{
+    display:flex;   
+    justify-content: center;  
+}
+.Button{
+    background-color:yellow;
+    color:purple;
+    border-style: solid;
+    margin-bottom:15px;
+}
